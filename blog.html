@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="blog.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu-container">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <img src="free-icon-burger-menu-17807662.png" alt="Меню" style="width: 30px; height: auto;">
+    </label>
+    <div class="basic">
+        <ul>
+            <li><a href="index.html" class="menu-element" title="На главную">Главная</a></li>
+            <li><a href="#services" class="menu-element" title="Услуги">Услуги</a></li>
+            <li><a href="#portfolio" class="menu-element" title="Галерея">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element" title="Контакты">Контакты</a></li>
+            <li><a href="blog.html" class="menu-element" title="Блог">Блог</a></li>
+        </ul>
+    </div>
+</div>
+<main>
+    <div class="blog-container">
+        <!-- Первая карточка блога -->
+        <section class="blog-card">
+            <div class="blog-header">
+                <div class="blog-cover" style="background-image: url('_DSC6240.jpg');"></div>
+            </div>
+            <div class="blog-body">
+                <div class="blog-title">
+                    <h2>Lorem dolorem</h2>
+                </div>
+                <div class="blog-text">
+                    <p>Lorem ipsum dolor si mollit anim id est laborum.</p>
+                </div>
+                <div class="blog-tags">
+                    <ul>
+                        <li><a href="#" class="tag">some</a></li>
+                        <li><a href="#" class="tag">autumn</a></li>
+                        <li><a href="#" class="tag">nothing</a></li>
+                    </ul>
+                </div>
+                <div class="blog-footer">
+                    <div class="blog-published-date">3 дня назад</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Вторая карточка блога -->
+        <section class="blog-card">
+            <div class="blog-header">
+                <div class="blog-cover" style="background-image: url('IMG_7641.JPG');"></div>
+            </div>
+            <div class="blog-body">
+                <div class="blog-title">
+                    <h2>Excepteur sint occaecat</h2>
+                </div>
+                <div class="blog-text">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                </div>
+                <div class="blog-tags">
+                    <ul>
+                        <li><a href="#" class="tag">winter</a></li>
+                        <li><a href="#" class="tag">holiday</a></li>
+                        <li><a href="#" class="tag">life</a></li>
+                    </ul>
+                </div>
+                <div class="blog-footer">
+                    <div class="blog-published-date">8 дней назад</div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <aside class="aside-panels">
+        <div class="aside-popular">
+            <h3 class="search-title">Популярные статьи</h3>
+            <div class="search-delimiter"></div>
+            <div class="recent-item">
+                <p>Новая версия - HTML 6</p>
+                <span>15/10/2021</span>
+            </div>
+            <div class="recent-item">
+                <p>Разработчики c# придумали новый яызк программирования</p>
+                <span>08/09/2021</span>
+            </div>
+            <div class="recent-item">
+                <p>Родился кот с красными глазами</p>
+                <span>29/08/2021</span>
+            </div>
+        </div>
+
+        <div class="aside-search">
+            <h3 class="search-title">Поиск в блоге</h3>
+            <input class="search-text" type="search" placeholder="Введите слово">
+            <button class="search-do">Искать</button>
+        </div>
+    </aside>
+</main>
+
+<footer>
+    <p>© Блог 2024</p>
+</footer>
+
+
+</body>
+</html>
