@@ -1,9 +1,215 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" media="all" href="css/style.css"/>
-    <title>Hello world </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
 </head>
 <body>
-<h1>Hello,world</h1>
+<div class="menu-container">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+        <img src="free-icon-burger-menu-17807662.png" alt="Меню" style="width: 30px; height: auto;">
+    </label>
+    <div class="basic">
+        <ul>
+            <li><a href="index.html" class="menu-element" title="На главную">Главная</a></li>
+            <li><a href="services" class="menu-element" title="Услуги">Услуги</a></li>
+            <li><a href="gallery.html" class="menu-element" title="Галерея">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element" title="Контакты">Контакты</a></li>
+            <li><a href="blog.html" class="menu-element" title="Блог">Блог</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="color-block"></div>
+<img src="pexels-eberhardgross-1284296.jpg"
+     alt="вид">
+
+<div class = "am">
+    <h4> Наши услуги</h4>
+</div>
+<div class ="poddiv">
+    <hr class="divider">
+    <h3>Для заказа выберите свойство ниже!</h3>
+</div>
+<div class="icons ">
+    <div class="iconSMS">
+        <img src="icon-1.png" alt="Сообщение ">
+        <h3>SMS</h3>
+        <p>Отправляйте и получайте сообщения мгновенно,<br> оставайтесь на связи с друзьями и семьей.</p>
+    </div>
+    <div class="iconPhone">
+        <img src="icon-3.png" alt="Уведомления ">
+        <h3>Call</h3>
+        <p>Звоните в любое время и в любом месте,<br> оставайтесь на связи с близкими легко.</p>
+    </div>
+    <div class="iconLocation">
+        <img src="icon-4.png" alt="Местоположение ">
+        <h3>Location</h3>
+        <p>Легко находите нужный путь с нашими точными <br>услугами определения местоположения.</p>
+    </div>
+    <div class="iconPen">
+        <img src="icon-5.png" alt="Заказы ">
+        <h3>Notification</h3>
+        <p>Записывайте заметки или свои мысли<br> с помощью наших универсальных письменных инструментов.</p>
+    </div>
+    <div class="iconComp">
+        <img src="icon-2.png" alt="Сервис ">
+        <h3>Admin</h3>
+        <p>Беспрепятственно получайте доступ к цифровому миру<br> с нашими надежными решениями.</p>
+    </div>
+    <div class="iconQ">
+        <img src="icon-9.png" alt="Контакты ">
+        <h3>Contacts</h3>
+        <p>Есть вопрос? Наша команда поддержки всегда <br>готова помочь вам найти нужные ответы.</p>
+    </div>
+</div>
+<div class = "portfolio">
+    <h4> Наши работы </h4>
+</div>
+<div class ="element">
+    <hr class="text">
+    <h3>Для заказа выберите свойство ниже!</h3>
+</div>
+<div class="pictures">
+    <div class="pictures-item" data-src="IMG_7641.JPG" style="background-image: url('IMG_7641.JPG');">
+        <div class="description-container">
+            <h3 class="portfolio-title">Парки</h3>
+            <p class="portfolio-description">В нашем списке около 10 парков, которые вы можете посетить.</p>
+        </div>
+    </div>
+    <div class="pictures-item" data-src="_DSC6214.jpg" style="background-image: url('_DSC6214.jpg');">
+        <div class="description-container">
+            <h3 class="portfolio-title">Моря</h3>
+            <p class="portfolio-description">Отличные места для курорта и по низким ценам.</p>
+        </div>
+    </div>
+    <div class="pictures-item" data-src="_DSC6240.jpg" style="background-image: url('_DSC6240.jpg');">
+        <div class="description-container">
+            <h3 class="portfolio-title">Животные</h3>
+            <p class="portfolio-description">Разные животные, которые могут покорить ваше сердце.</p>
+        </div>
+    </div>
+</div>
+
+<div class="button">
+    <div class="content">
+        <h4 class="service-title">Наши услуги</h4>
+        <hr class="separator">
+        <h3 class="order-text">Для заказа выберите свойство ниже!</h3>
+    </div>
+    <button class="order-button">Заказать</button>
+</div>
+<section class="testimonials">
+    <h1 class="main-title">Отзывы</h1>
+    <div class="delimiter"></div>
+    <p class="main-title-description">Наши клиенты о нас</p>
+    <div class="testimonials-container">
+        <div class="testimonials-inner">
+            <div class="testimonials-row">
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="_DSC6223.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Экологическая устойчивость</h4>
+                            <span>25/02/2021</span>
+                        </div>
+                    </div>
+                    <p>Внедрение зеленых технологий в производство является важным шагом к снижению воздействия на окружающую среду и достижению устойчивого будущего.</p>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="_DSC6240.jpg" alt="">
+                        <div class="card-head">
+                            <h4>Искусственный интеллект в здравоохранении</h4>
+                            <span>12/11/2021</span>
+                        </div>
+                    </div>
+                    <p>Интеграция виртуальных и дополненных реальностей в образовательный процесс помогает создавать более интерактивные и увлекательные учебные материалы.</p>
+                </div>
+            </div>
+            <div class="testimonials-row">
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="IMG_8333.JPG" alt="">
+                        <div class="card-head">
+                            <h4>Технологии в образовании</h4>
+                            <span>12/11/2021</span>
+                        </div>
+                    </div>
+                    <p>Интеграция виртуальных и дополненных реальностей в образовательный процесс помогает создавать более интерактивные и увлекательные учебные материалы.</p>
+                </div>
+                <div class="testimonials-card">
+                    <div class="card-row">
+                        <img class="card-img" src="IMG_8328.JPG" alt="">
+                        <div class="card-head">
+                            <h4>Устойчивое потребление</h4>
+                            <span>12/11/2021</span>
+                        </div>
+                    </div>
+                    <p>Реализация принципов устойчивого потребления может значительно снизить количество отходов и повлиять на улучшение глобальной ситуации с ресурсами.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контролы для прокрутки отзывов -->
+    <div class="testimonials-controls">
+        <div class="control-item active"></div>
+        <div class="control-item"></div>
+        <div class="control-item"></div>
+    </div>
+</section>
+<section class="contact">
+    <h2 class="main-title">Контактная форма</h2>
+    <div class="delimiter"></div>
+    <p class="main-title-description">С радостью ответим на любой вопрос</p>
+
+    <form id="contactform" method="post" action="contact.php" class="contact-form">
+        <div class="form-row">
+            <input name="name" type="text" class="col" placeholder="Ваше имя *" required>
+            <input name="email" type="email" class="col" placeholder="E-mail адрес *" required>
+        </div>
+        <div class="form-row">
+            <input name="theme" type="text" class="col" placeholder="Тема сообщения">
+            <input name="phone" type="tel" class="col" placeholder="Номер телефона">
+        </div>
+        <textarea name="comment" class="row-col" placeholder="Сообщение *" required></textarea>
+        <span class="row-col check">
+                <input id="accept" type="checkbox" class="" required>
+                <label for="accept">Я прочитал(а) и принимаю условия
+                    <a href="#">Пользовательского соглашения</a>
+                </label>
+            </span>
+        <input type="submit" id="submit" class="submit btn" value="Отправить сообщение">
+    </form>
+</section>
+<footer>
+    <div class="brand">
+        <img src="fort-icon.png" alt="Логотип сайта"><span>AWESOME</span></div>
+    <div class="social">
+        <a href="#" title="Facebook" target="_blank">
+            <img class="social-img" src="001-facebook.png" alt="Facebook">
+        </a>
+        <a href="#" title="LinkedIn" target="_blank">
+            <img class="social-img" src="004-linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/" title="Instagram" target="_blank">
+            <img class="social-img" src="005-instagram.png" alt="Instagram">
+        </a>
+        <a href="#" title="Twitter" target="_blank">
+            <img class="social-img" src="007-twitter.png" alt="Twitter">
+        </a>
+        <a href="#" title="Tumblr" target="_blank">
+            <img class="social-img" src="010-tumblr.png" alt="Tumblr">
+        </a>
+    </div>
+    <div class="copyright">© Very First Page 2024</div>
+</footer>
 </body>
 </html>
