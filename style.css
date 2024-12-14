@@ -3,6 +3,61 @@ body{
     overflow-x: hidden;
     background-color: #8FBC8F;
 }
+.menu-container {
+    position: relative;
+    width: 100%;
+}
+.menu-toggle {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    background-color: #556B2F;
+    padding: 10px;
+    cursor: pointer;
+}
+.basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: -42px;
+    position: relative;
+    z-index: 1;
+    color: rgb(207, 205, 203);
+    font: 1.0rem "Snell Roundhand", cursive;
+    background-color: #556B2F;
+}
+
+.menu-icon {
+    display: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.basic ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.basic li {
+    margin: 0 15px;
+}
+
+.basic a {
+    color: rgb(207, 205, 203);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.basic a:hover {
+    color: white;
+    background-color: #45a049;
+    border-radius: 5px;
+}
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -521,72 +576,7 @@ header {
     top: 0;
     z-index: 1;
 }
-.color-block {
-    height: 55px;
-    background-color: #556B2F;
-    display: flex;
-    align-items: center;
-}
-.menu-container {
-    position: relative;
-    width: 100%;
-}
-.menu-toggle {
-    display: none;
-}
-.menu-icon {
-    display: none;
-    background-color: #556B2F;
-    padding: 10px;
-    cursor: pointer;
-}
-.basic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: -42px;
-    position: relative;
-    z-index: 1;
-    color: rgb(207, 205, 203);
-    font: 1.0rem "Snell Roundhand", cursive;
-    background-color: #556B2F;
-}
 
-/* Иконка меню (обычно для мобильной версии) */
-.menu-icon {
-    display: none; /* Изначально скрыта */
-    margin-left: auto;
-    cursor: pointer;
-}
-
-/* Стили для ul (список) */
-.basic ul {
-    list-style-type: none; /* Убираем стандартные маркеры */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Элементы списка идут в ряд */
-}
-
-/* Стили для li (элементы списка) */
-.basic li {
-    margin: 0 15px; /* Отступы между пунктами меню */
-}
-
-/* Стили для ссылок в меню */
-.basic a {
-    color: rgb(207, 205, 203); /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    padding: 10px 20px; /* Отступы внутри ссылки */
-    transition: color 0.3s, background-color 0.3s; /* Плавные переходы */
-}
-
-/* Эффект наведения на ссылку */
-.basic a:hover {
-    color: white; /* Цвет текста при наведении */
-    background-color: #45a049; /* Фон при наведении */
-    border-radius: 5px; /* Скругленные углы при наведении */
-}
 
 img {
     display: block;

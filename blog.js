@@ -25,7 +25,7 @@ const jsonData = [
 // Функция для отображения карточек блога
 function drawCards(data) {
     const container = document.querySelector(".blog-container");
-    container.innerHTML = ""; // Очистить контейнер
+    container.innerHTML = "";
     data.forEach((item) => {
         const card = document.createElement("div");
         card.className = "blog-card";

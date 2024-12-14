@@ -1,7 +1,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    background-color: #89AC76;
+    background-color: #89AC76 ;
 }
 .basic {
     display: flex;

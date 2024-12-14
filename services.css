@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #556B2F;
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    font: 1.9rem "Snell Roundhand", cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.menu-container {
+    position: relative;
+    width: 100%;
+}
+.menu-toggle {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    background-color: #556B2F;
+    padding: 10px;
+    cursor: pointer;
+}
+.basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: -42px;
+    position: relative;
+    z-index: 1;
+    color: rgb(207, 205, 203);
+    font: 1.0rem "Snell Roundhand", cursive;
+    background-color: #556B2F;
+}
+
+.menu-icon {
+    display: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.basic ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.basic li {
+    margin: 0 15px;
+}
+
+.basic a {
+    color: rgb(207, 205, 203);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.basic a:hover {
+    color: white;
+    background-color: #45a049;
+    border-radius: 5px;
+}
+img {
+
+    width: 100%;
+    height: auto;
+}
+.w-100{
+    height: 200px;
+
+}
+.row {
+    margin-top: 20px;
+    margin-left: auto;
+}
+.col{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.card {
+    border-radius: 20px;
+    width: 450px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+
+}
+
+.card-text {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.btn-group .btn {
+    padding: 5px 10px;
+}
+
+.btn-outline-primary {
+    color: #556B2F;
+    border-color: #556B2F;
+}
+
+.btn-outline-primary:hover {
+    background-color: #556B2F;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.text-muted {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .brand {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer .brand img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+footer .social a {
+    display: inline-block;
+}
+
+footer .social-img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+}
+
+footer .social-img:hover {
+    opacity: 0.7;
+}
